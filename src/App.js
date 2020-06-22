@@ -20,19 +20,3 @@ export default App;
 
 
 
-/** PREVIOUS CODE
-state = [];
-
-class App extends React.Component () {
-  render() {
-    return (
-      <div>
-        <p>The App component is working</p>
-        <SearchBar/>
-        <FilterBar/>
-        <BooksList/>
-      </div>
-    );
-  }
-}
-*/

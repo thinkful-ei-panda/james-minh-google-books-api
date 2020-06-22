@@ -4,10 +4,12 @@ function SearchBar() {
     console.log('SearchBar component is working');
 
     return (
-        <section>
-            <p>Search: (input field)</p>
-            <button>Search</button>
-        </section>
+        <form className="book-search-form">
+            <label className="book-search-label" htmlFor="search">Search:</label>
+            <input type="text" name="search" id="search" placeholder="henry"></input>
+            
+            <input type="submit" value="submit"></input>
+        </form>
     )
 
 }

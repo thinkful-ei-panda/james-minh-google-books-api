@@ -5,8 +5,20 @@ function FilterBar() {
 
     return (
         <section>
-            <p>Print Type (dropdown box)</p>
-            <p>Book Type (dropdown box)</p>
+            <label className="print-type-label" htmlFor="print-type">Print Type:</label>
+            <select type="text" name="print-type" id="print-type">
+                <option value="#">All</option>
+                <option value="#">Option1</option>
+                <option value="#">Option2</option>
+            </select>
+            
+            <label className="book-type-label" htmlFor="book-type">Book Type:</label>
+            <select type="text" name="book-type" id="book-type">
+                <option value="#">No Filter</option>
+                <option value="#">Option1</option>
+                <option value="#">Option2</option>
+            </select>
+            
         </section>
     )
 
