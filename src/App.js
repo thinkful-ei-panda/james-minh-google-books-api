@@ -3,10 +3,25 @@ import SearchBar from "./SearchBar";
 import FilterBar from "./FilterBar";
 import BooksList from "./BooksList";
 
-state = [
+
+function App() {
+  console.log('App component is working');
+
+  return (
+    <main className='App'>
+      {/* content goes here */}
+      <SearchBar/>
+      <FilterBar/>
+      <BooksList/>
+    </main>
+  );
+}
+export default App;
 
 
-];
+
+/** PREVIOUS CODE
+state = [];
 
 class App extends React.Component () {
   render() {
@@ -17,7 +32,7 @@ class App extends React.Component () {
         <FilterBar/>
         <BooksList/>
       </div>
-    )
+    );
   }
 }
-export default App;
+*/
